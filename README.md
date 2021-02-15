@@ -1,5 +1,6 @@
 SSH窗口输入命令行
 自定义配置menuconfig时使用
+
 CTRL+C
 
 cd openwrt && make menuconfig
