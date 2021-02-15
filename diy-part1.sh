@@ -23,4 +23,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #src-git small https://github.com/kenzok8/small
 #添加Passwall插件
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git https://github.com/kenzok8/openwrt-packages' feeds.conf.default
