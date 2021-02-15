@@ -22,5 +22,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #添加Passwall插件
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-#添加插件
-git clone https://github.com/immortalwrt/immortalwrt/tree/openwrt-18.06/package/ctcgfw/luci-theme-argon-mc
+
